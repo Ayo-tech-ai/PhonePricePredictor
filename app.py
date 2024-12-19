@@ -38,10 +38,10 @@ set_background(background_image_url)
 st.title("Phone Price Predictor")
 
 # Input fields for the features
-ppi = st.number_input("Enter Pixels Per Inch (PPI)", min_value=1, max_value=1000, step=1)
-cpu_freq = st.number_input("Enter CPU Frequency (GHz)", min_value=0.1, max_value=10.0, step=0.1)
-ram = st.number_input("Enter RAM Size (GB)", min_value=1, max_value=128, step=1)
-battery = st.number_input("Enter Battery Capacity (mAh)", min_value=500, max_value=10000, step=100)
+ppi = st.number_input("Enter Pixels Per Inch (PPI)", min_value2301, max_value=900, step=1)
+cpu_freq = st.number_input("Enter CPU Frequency (GHz)", min_value=0.0, max_value=3.0, step=0.1)
+ram = st.number_input("Enter RAM Size (GB)", min_value=1, max_value=8, step=1)
+battery = st.number_input("Enter Battery Capacity (mAh)", min_value=800, max_value=10000, step=100)
 
 # Predict button
 if st.button("Predict"):
