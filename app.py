@@ -31,7 +31,7 @@ def set_background(image_url):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Set your background image
-background_image_url = "https://github.com/Ayo-tech-ai/PhonePricePredictor/raw/main/backgrd.jpg"  # Update the URL to your new background image
+background_image_url = "https://github.com/Ayo-tech-ai/PhonePricePredictor/raw/main/backgrd.jpeg"  # Update the URL to your new background image
 set_background(background_image_url)
 
 # Set up the app title
